@@ -11,6 +11,7 @@ import java.util.Arrays;
 @SpringBootApplication
 public class GreetingApplication {
 
+
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return beansProvidedBySpringBoot -> {
